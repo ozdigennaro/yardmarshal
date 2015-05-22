@@ -20,10 +20,10 @@ begin
   require "jeweler"
   Jeweler::Tasks.new do |gem|
     gem.name = "yardmarshal"
-    gem.summary = "Description of your gem"
+    gem.summary = "Deep introspection"
     gem.email = "oz@ozdigennaro.com"
-    gem.authors = ["Oz DiGennaro"]
-    gem.files = Dir["{lib}/**/*", "{app}/**/*", "{public}/**/*", "{config}/**/*"]
+    gem.authors = ["Oz DiGennaro","Rich Morello"]
+    gem.files = Dir["{lib}/**/*", "{app}/**/*", "{config}/**/*"]
   end
   Jeweler::GemcutterTasks.new
 rescue
