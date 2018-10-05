@@ -15,17 +15,3 @@ RDoc::Task.new(:rdoc) do |rdoc|
 end
 
 Bundler::GemHelper.install_tasks
-
-begin
-  require "jeweler"
-  Jeweler::Tasks.new do |gem|
-    gem.name = "yardmarshal"
-    gem.summary = "Deep introspection"
-    gem.email = "oz@ozdigennaro.com"
-    gem.authors = ["Oz DiGennaro","Rich Morello"]
-    gem.files = Dir["{lib}/**/*", "{app}/**/*", "{config}/**/*"]
-  end
-  Jeweler::GemcutterTasks.new
-rescue
-  puts "Jeweler or dependency not available."
-end
